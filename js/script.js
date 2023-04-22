@@ -1,1 +1,1 @@
-Режим вывода команд на экран (ECHO) включен.
+document.body.innerHTML = "<h1>Hello from javascript </h1>"
