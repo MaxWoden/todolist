@@ -111,7 +111,7 @@ body{
     background: #222;
     color: #fff;
     font-size: 18px;
-    width: 100%;
+    width: 95%;
     cursor: default;
 }
 .app_tasks__input:not(:read-only){
@@ -137,4 +137,11 @@ body{
     text-transform: uppercase;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+@media screen and (width <= 1200px) {
+    .app_nav{
+        flex-direction: column;
+        align-items: start;
+        gap: 40px;
+    }
 }
